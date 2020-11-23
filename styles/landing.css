@@ -90,6 +90,158 @@ h6{
 
 
 
+/* HImanshu's Code from here */
+
+body{
+    display: grid;
+    justify-content: center;
+}
+p{
+    font-size: 20px;
+    text-align: left;
+}
+#box-1{
+    height: 90vh;
+    width: 80%;
+    background-color: rgb(250, 244, 244);
+    margin: 0px auto 50px;
+    text-align: center;
+    padding: 40px 90px;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+.a_a{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Hind', sans-serif;
+}
+.a_b{
+    font-size: 55px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    font-family: 'Noto Serif', serif;
+}
+.a_c{
+    height: 45px;
+    width: 200px;
+    background-color: rgb(24, 110, 145);
+    font-size: 20px;
+    color: white;
+    padding-top: 25px;
+    margin: 50px auto 0px;
+    
+}
+.image-1{
+    width: 80%;
+    padding-left: 10%;
+}
+#box-2{
+    height: 50vh;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid rgb(26, 25, 25);
+    padding: 50px 50px;
+    text-align: left;
+}
+
+.image-2{
+    display: flex;
+    justify-content: left;
+}
+.b_a{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Hind', sans-serif;
+}
+.b_b{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Noto Serif', serif;
+    margin-bottom: 10px;
+}
+.b_c{
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+.b_d{
+
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Hind', sans-serif;
+}
+#box-3{
+    height: 70vh;
+    width: 80%;
+    background-color: rgb(23,41,77);
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.image-3{
+    height: 40vh;
+    width: 100%;
+
+}
+.c_a{
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Hind', sans-serif;
+}
+.c_b{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Noto Serif', serif;
+    color: white;
+    margin-bottom: 10px;
+}
+.c_c{
+    height: 45px;
+    width: 200px;
+    font-size: 20px;
+    color: white;
+    padding-top: 25px;
+    margin: 50px auto 0px;
+    
+}
+#box-4{
+    height: 70vh;
+    width: 80%;
+    margin: 50px auto 50px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+.image-4{
+    width: 80%;
+    padding-left: 10%;
+}
+.c_a{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Hind', sans-serif;
+}
+.c_b{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Noto Serif', serif;
+    margin-bottom: 10px;
+}
+.c_c{
+    height: 45px;
+    width: 200px;
+    font-size: 20px;
+    padding-top: 25px;
+    margin: 50px auto 0px;
+    
+}
+
 
 
 
