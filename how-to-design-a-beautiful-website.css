@@ -36,7 +36,9 @@ body{
 .nav-left{
     margin: 25px 0;
 }
-
+.nav-left a:hover{
+    font-weight: 700;
+}
 .nav-right{
     margin: 10px;
 }
@@ -151,4 +153,7 @@ body{
     font-weight: 600;
     margin: 0% auto 10%;
     text-decoration: none;
+}
+.btn:hover{
+    background-color: rgb(0, 55, 61);
 }
