@@ -58,24 +58,29 @@ h6{
 .outer-cont-2{
     width: 75%;
     margin: auto;
-    margin-top: 100px;
+    padding-top: 7%;
     text-align: center;
+    padding-bottom: 4%;
 }
 
 .section-2-parra{
     width: 70%;
     margin: auto;
-    margin-bottom: 100px;
+    margin-bottom: 7%;
 }
+
+/* .inner-cont-2{
+    margin-bottom: 100px;
+} */
 
 .inner-cont-2 > div{
     width: 100%;
     background-color: #403B3B;
-    height: 300px;
-    margin-bottom: 100px;
+    height: 10%;
+    margin-bottom: 7%;
     text-align: left;
     color: white;
-    padding: 0 0 0 50px;
+    /* padding: 0 0 0 50px; */
     display: flex;
 }
 
@@ -83,9 +88,38 @@ h6{
     color: yellow;
 }
 
-.inner-cont-2 > div >div :nth-child(1){
+.inner-txt-cont2{
     width: 50%;
-    margin: 20px;
+    margin: 20px 50px;
+}
+
+.inner-img-cont2{
+    width: 50%;
+    margin: 0 50px;
+}
+
+.inner-cont2-img{
+    width: 80%;
+}
+
+
+
+/******************* Section - 3 **********************/
+.outer-cont-3{
+    background-color: #FBEECA;
+}
+
+.section-3{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 7%;
+    padding-top: 7%;
+}
+
+.section-3-txt{
+    width: 65%;
+    margin: auto;
 }
 
 
