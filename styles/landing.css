@@ -87,6 +87,24 @@ h6{
     width: 50%;
     margin: 20px;
 }
+/******************* Section - 3 **********************/
+.outer-cont-3{
+    background-color: #FBEECA;
+}
+
+.section-3{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 7%;
+    padding-top: 7%;
+}
+
+.section-3-txt{
+    width: 65%;
+    margin: auto;
+}
+
 
      /* Abinash */
 
