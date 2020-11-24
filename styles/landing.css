@@ -8,8 +8,6 @@ h2{
     font-size: 2rem;
     font-family:  Means Web,Georgia,Times,Times New Roman,serif;
     font-weight: 100;
-    color: white
-
 }
 h3{
     font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;
@@ -21,6 +19,26 @@ h6{
     font-size: 1rem;
     font-weight: 300;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#link1{
+    color: #FFE01B;
+}
+
+#link2{
+    color: #007CA8;
+}
+
+
+
+.light{
+    color: white;
+}
+
 #hero{
     width: 75%;
     margin: auto;
@@ -84,10 +102,6 @@ h6{
     display: flex;
 }
 
-#emp-cont2{
-    color: yellow;
-}
-
 .inner-txt-cont2{
     width: 50%;
     margin: 20px 50px;
@@ -113,14 +127,77 @@ h6{
     width: 75%;
     margin: auto;
     text-align: center;
-    padding-bottom: 7%;
+    padding-bottom: 12%;
     padding-top: 7%;
 }
 
 .section-3-txt{
     width: 65%;
     margin: auto;
+    margin-bottom: 10%;
 }
+
+.section-3-img{
+    width: 100%;
+    margin: auto;
+}
+.section-3-img > img{
+    width: 100%;
+}
+
+/* Section - 4 */
+.outer-cont-4{
+    width: 75%;
+    margin: auto;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.cont-4-grid{
+    display: grid;
+    grid-template-columns: 50% 45%;
+    /* grid-template-rows: 220px 220px 220px 220px; */
+    grid-gap: 50px;
+    margin: auto;
+    width: 100%;
+}
+
+.cont-4-grid img{
+    width: 100%;
+}
+
+
+/********************** Section - 5 ****************************/
+.outer-cont-5{
+    background-color: #F6F6F4;
+}
+
+.cont-5{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 7%;
+}
+
+.inner-flex-5{
+    margin: auto;
+    display: flex;
+    width: 100%;
+}
+
+.inner-flex-5 > div{
+    flex: auto;
+    margin: 2% 8%;
+}
+
+.inner-flex-5 img{
+    width: 75%;
+    margin: 0 10px;
+}
+
+
+
 
      /* Abinash */
 
