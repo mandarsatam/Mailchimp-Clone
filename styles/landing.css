@@ -8,8 +8,6 @@ h2{
     font-size: 2rem;
     font-family:  Means Web,Georgia,Times,Times New Roman,serif;
     font-weight: 100;
-    color: white
-
 }
 h3{
     font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;
@@ -21,6 +19,26 @@ h6{
     font-size: 1rem;
     font-weight: 300;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#link1{
+    color: #FFE01B;
+}
+
+#link2{
+    color: #007CA8;
+}
+
+
+
+.light{
+    color: white;
+}
+
 #hero{
     width: 75%;
     margin: auto;
@@ -58,35 +76,128 @@ h6{
 .outer-cont-2{
     width: 75%;
     margin: auto;
-    margin-top: 100px;
+    padding-top: 7%;
     text-align: center;
+    padding-bottom: 4%;
 }
 
 .section-2-parra{
     width: 70%;
     margin: auto;
-    margin-bottom: 100px;
+    margin-bottom: 7%;
 }
+
+/* .inner-cont-2{
+    margin-bottom: 100px;
+} */
 
 .inner-cont-2 > div{
     width: 100%;
     background-color: #403B3B;
-    height: 300px;
-    margin-bottom: 100px;
+    height: 10%;
+    margin-bottom: 7%;
     text-align: left;
     color: white;
-    padding: 0 0 0 50px;
+    /* padding: 0 0 0 50px; */
     display: flex;
 }
 
-#emp-cont2{
-    color: yellow;
+.inner-txt-cont2{
+    width: 50%;
+    margin: 20px 50px;
 }
 
-.inner-cont-2 > div >div :nth-child(1){
+.inner-img-cont2{
     width: 50%;
-    margin: 20px;
+    margin: 0 50px;
 }
+
+.inner-cont2-img{
+    width: 80%;
+}
+
+
+
+/******************* Section - 3 **********************/
+.outer-cont-3{
+    background-color: #FBEECA;
+}
+
+.section-3{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 12%;
+    padding-top: 7%;
+}
+
+.section-3-txt{
+    width: 65%;
+    margin: auto;
+    margin-bottom: 10%;
+}
+
+.section-3-img{
+    width: 100%;
+    margin: auto;
+}
+.section-3-img > img{
+    width: 100%;
+}
+
+/* Section - 4 */
+.outer-cont-4{
+    width: 75%;
+    margin: auto;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.cont-4-grid{
+    display: grid;
+    grid-template-columns: 50% 45%;
+    /* grid-template-rows: 220px 220px 220px 220px; */
+    grid-gap: 50px;
+    margin: auto;
+    width: 100%;
+}
+
+.cont-4-grid img{
+    width: 100%;
+}
+
+
+/********************** Section - 5 ****************************/
+.outer-cont-5{
+    background-color: #F6F6F4;
+}
+
+.cont-5{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 7%;
+}
+
+.inner-flex-5{
+    margin: auto;
+    display: flex;
+    width: 100%;
+}
+
+.inner-flex-5 > div{
+    flex: auto;
+    margin: 2% 8%;
+}
+
+.inner-flex-5 img{
+    width: 75%;
+    margin: 0 10px;
+}
+
+
+
 
      /* Abinash */
 
@@ -119,7 +230,7 @@ h6{
     
     #see_how{
         background-color: #fbeeca ;
-        clear: both;  
+        clear: both; 
     }
     #see_heading{
         font-family: Means Web,Georgia,Times,Times New Roman,serif;   
@@ -183,6 +294,93 @@ h6{
        background-color: teal;
        color: white;
     }
+    
+    .lowimg {
+        margin: 10px auto;  
+         text-align: center;
+    
+    }
+    /* .street{
+        margin-top: 5%;
+        width: 10%;
+        margin-left: 10%;
+        float: left;
+    
+    
+    }
+    .street > .flex_all{
+        min-width: 20%;
+    
+    }
+    
+    .flex_img  {
+        clear: left;
+        width: 100%;
+    }
+     .flex_img > img{
+        float: left;
+     } */
+    
+    
+     .mail{
+        margin-top: 10%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        letter-spacing: -.03125rem;
+        text-align: center;
+        background-color:#F6F6F4;
+        position: relative;
+    
+    }
+    .mail > h1  {
+        font-family: 'Nanum Gothic', sans-serif ;
+        font-size: 40px;
+        width: 30% ;
+        justify-content: center;
+        padding-top: 8% ;
+        margin-left: 35%;
+        letter-spacing: .1rem !important; 
+    }
+    
+    .mail > h4 {
+        border: rgb(90, 193, 241) 2px solid;
+        background-color: white;
+        color: rgb(61, 179, 233);
+            width: 15%;
+           margin: 30px auto;
+           padding: 20px;
+    }
+    
+    .mail_img > img {
+        background-color: #f8f8ef;
+        position: sticky;
+        width: 500px;
+        bottom: 5;
+        left: 500px;
+        padding-bottom: 20px ;
+    
+    
+    }
+    
+    .last{
+        margin-top: 10% ;
+        
+    }
+    .last > h1 {
+        width: 55% ;
+        text-align: center;
+        margin: 10px auto;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 44px;
+        letter-spacing: 0.4vh;
+    }
+    .last > p {
+        width: 55% ;
+        text-align: center;
+        margin: 10px auto;
+        font-family: 'Noto Sans JP', sans-serif;
+        letter-spacing: 0vh;
+    }
+    
     
      
     
