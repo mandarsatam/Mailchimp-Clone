@@ -1,0 +1,146 @@
+body{
+    height: 1000px;
+    margin: 0;
+}
+#nav-bar{
+    position: fixed;
+    width: 100%;
+    padding: 0;
+    background-color: white;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+
+#nav-bar > ul{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    margin: 0;
+}
+
+#nav-bar > ul > div{
+    display: flex;
+}
+
+#nav-bar  li{
+    list-style: none;
+    margin: 0 20px;
+}
+
+#nav-bar  a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-left{
+    margin: 25px 0;
+}
+
+.nav-right{
+    margin: 10px;
+}
+
+.nav-mid{
+    margin: 10px 0;
+}
+
+.login{
+    padding: 12px 28px;
+    border-radius: 0;
+    border: 1px solid black;
+}
+.sign-up{
+    padding: 12px 28px;
+    background-color: #004E56;
+    color: white;
+    border-radius: 0;
+    border: 0;
+}
+
+.fa-search{
+    margin-top: 10px;
+}
+
+.mailchimp-logo{
+    position: relative;
+    bottom: 10px;
+}
+h1{
+    font-size: 4.5rem;
+    font-family: Means Web,Georgia,Times,Times New Roman,serif;
+    font-weight: 100;
+    color: #241c15;
+    margin-left: 55%;
+    position: relative;
+
+
+}
+
+#top{
+    width: 75%;
+    margin: auto;
+    position: relative;
+
+}
+.top-cont{
+    width: 100%;
+    padding: 200px 0 100px 0;
+    background-color: #C5DBF2;
+
+}
+
+.top-text{
+    width: 70% ;
+}
+
+.top-graphic{
+    position: absolute;
+    width: 55%;
+    padding-top: 25% auto;
+    text-align: center;
+
+}
+
+.top-img{
+    width: 100%;
+    margin-left: 40%;
+
+}
+.one_p{
+    margin-top: 25% ;
+    width: 45% ;
+    margin-left: 28%;
+    font-size: 20px;
+    text-align: left;
+}
+.h_lines {
+    width: 45% ;
+    margin-left: 28%;
+    font-size: 45px;
+    text-align: left;
+}
+.p_lines {
+    width: 45% ;
+    margin-left: 28%;
+    font-size: 18px;
+    text-align: left;
+
+}
+.p_lines > p {
+    margin: 10% auto;
+
+}
+.images > img{
+    width: 60% ;
+    justify-content: center;
+    margin-left: 20%;
+
+    
+}
+
+
+
+
+
+
