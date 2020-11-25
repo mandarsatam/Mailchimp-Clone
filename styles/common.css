@@ -36,7 +36,11 @@ body{
 }
 
 .nav-left{
+    font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;
+    color: #241c15;
+    font-weight: 500;
     margin: 25px 0;
+    font-size: 0.9rem;
 }
 
 .nav-right{
@@ -69,12 +73,11 @@ body{
 }
 
 .mailchimp-logo{
+    font-family: 'Archivo Black', sans-serif;
     position: relative;
     bottom: 10px;
 }
 
-
-/* Himanshu's Part from here */
 
 
 
