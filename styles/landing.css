@@ -328,7 +328,6 @@ a{
         letter-spacing: -.03125rem;
         text-align: center;
         background-color:#F6F6F4;
-        position: relative;
     
     }
     .mail > h1  {
@@ -352,7 +351,6 @@ a{
     
     .mail_img > img {
         background-color: #f8f8ef;
-        position: sticky;
         width: 500px;
         bottom: 5;
         left: 500px;
