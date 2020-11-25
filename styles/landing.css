@@ -123,58 +123,7 @@ a{
     width: 100%;
 }
 
-/* **************** */
-@media only screen and (max-width: 600px) {
-    h1{
-        font-size: 2.5rem;
-    }
-    .hero{
-        flex-direction: column;
-    }
-    .hero-text{
-        flex: 1;
-        width: 100%;
-    }
-    
-    .hero-graphic{
-        flex: 1;
-        width: 100%;
-    }
-    .outer-cont-2{
-        width: 90%;
-    }
-    .inner-cont-2 > div{
-        flex-direction: column-reverse;
-    }
-}
 
-@media only screen and (min-width: 600px) {
-    .hero{
-        flex-direction: column;
-    }
-    .hero-text{
-        flex: 1;
-        width: 100%;
-    }
-    
-    .hero-graphic{
-        flex: 1;
-        width: 100%;
-    }
-
-    .inner-cont-2 > div{
-        flex-direction: column-reverse;
-    }
-
-}
-@media only screen and (min-width: 1100px) {
-    .hero{
-        flex-direction: row;
-    }
-    .inner-cont-2 > div{
-        flex-direction: row;
-    }
-}
 
 
 
@@ -192,7 +141,7 @@ a{
 }
 
 .section-3-txt{
-    width: 65%;
+    width: 70%;
     margin: auto;
     margin-bottom: 10%;
 }
@@ -204,6 +153,7 @@ a{
 .section-3-img > img{
     width: 100%;
 }
+
 
 /******************** Section - 4 ********************/
 .outer-cont-4{
@@ -225,6 +175,12 @@ a{
 .cont-4-grid img{
     width: 100%;
 }
+
+.cont-4-heading{
+    margin-bottom: 10%;
+}
+
+
 
 
 /********************** Section - 5 ****************************/
@@ -255,6 +211,83 @@ a{
     width: 75%;
     margin: 0 10px;
 }
+
+/* **************** */
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 2.5rem;
+    }
+    .hero{
+        flex-direction: column;
+    }
+    .hero-text{
+        flex: 1;
+        width: 100%;
+    }
+    
+    .hero-graphic{
+        flex: 1;
+        width: 100%;
+    }
+    .outer-cont-2{
+        width: 90%;
+    }
+    .inner-cont-2 > div{
+        flex-direction: column-reverse;
+    }
+    .section-3-txt{
+        width: 100%;
+    }
+    .cont-4-grid{
+        grid-template-columns: 100%;
+    }
+    h2{
+        font-size: 1.75rem;
+    }
+    .inner-flex-5{
+        flex-direction: column;
+    }
+    .inner-flex-5 img{
+        width: 50%;
+        margin: 0 10px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .hero{
+        flex-direction: column;
+    }
+    .hero-text{
+        flex: 1;
+        width: 100%;
+    }
+    
+    .hero-graphic{
+        flex: 1;
+        width: 100%;
+    }
+
+    .inner-cont-2 > div{
+        flex-direction: column-reverse;
+    }
+    .inner-flex-5{
+        flex-direction: row;
+    }
+
+}
+@media only screen and (min-width: 1100px) {
+    .hero{
+        flex-direction: row;
+    }
+    .inner-cont-2 > div{
+        flex-direction: row;
+    }
+    .inner-flex-5{
+        flex-direction: row;
+    }
+}
+
+
 
      /* Abinash */
 
