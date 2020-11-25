@@ -45,7 +45,7 @@ a{
     background-color: #FFE01B;
 }
 
-#hero{
+.hero{
     width: 75%;
     margin: auto;
     display: flex;
@@ -53,10 +53,14 @@ a{
 
 .hero-text{
     flex: 1;
+    /* margin: 40px; */
+    width: 50%;
 }
 
 .hero-graphic{
     flex: 1;
+    width: 50%;
+    margin-top: 35px;
 }
 
 .hero-img{
@@ -69,6 +73,9 @@ a{
     color: white;
     border: none;
 }
+
+
+
 
 
 
@@ -94,7 +101,7 @@ a{
 .inner-cont-2 > div{
     width: 100%;
     background-color: #403B3B;
-    height: 10%;
+    /* height: 10%; */
     margin-bottom: 7%;
     text-align: left;
     color: white;
@@ -104,40 +111,71 @@ a{
 
 .inner-txt-cont2{
     flex: 1;
-    margin: 20px 50px;
+    margin: 3% 5%;
 }
 
 .inner-img-cont2{
     flex: 1;
-    margin: 0 50px;
+    margin: 0 5%;
 }
 
 .inner-cont2-img{
     width: 100%;
 }
 
+/* **************** */
 @media only screen and (max-width: 600px) {
+    h1{
+        font-size: 2.5rem;
+    }
+    .hero{
+        flex-direction: column;
+    }
+    .hero-text{
+        flex: 1;
+        width: 100%;
+    }
     
+    .hero-graphic{
+        flex: 1;
+        width: 100%;
+    }
+    .outer-cont-2{
+        width: 90%;
+    }
+    .inner-cont-2 > div{
+        flex-direction: column-reverse;
+    }
 }
 
 @media only screen and (min-width: 600px) {
-    #hero{
+    .hero{
         flex-direction: column;
+    }
+    .hero-text{
+        flex: 1;
+        width: 100%;
+    }
+    
+    .hero-graphic{
+        flex: 1;
+        width: 100%;
     }
 
     .inner-cont-2 > div{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
 }
 @media only screen and (min-width: 1100px) {
-    #hero{
+    .hero{
         flex-direction: row;
     }
     .inner-cont-2 > div{
         flex-direction: row;
     }
 }
+
 
 
 /******************* Section - 3 **********************/
