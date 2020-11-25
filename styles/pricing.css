@@ -215,3 +215,46 @@ ul{
     padding-right: 50px;
     width: 100%;
 }
+
+/****************** Section - 6 ****************/
+.section-6-cont{
+    width: 75%;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    margin: auto;
+}
+
+.section-6{
+    display: flex;
+}
+
+.section-6 > div{
+    flex: 1;
+    padding: 40px;
+}
+
+.section-6 .left{
+    border-right: 1px solid black;
+}
+
+/****************** Section - 7 ****************/
+.section-7-cont{
+    width: 75%;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    margin: auto;
+}
+
+.sec-7-inner{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;  
+}
+
+.section-7-inner  div{
+    flex: 1;
+    border: 1px solid black;
+}
+
+
+
