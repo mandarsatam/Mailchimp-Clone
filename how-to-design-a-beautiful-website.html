@@ -5,6 +5,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
     <title>how-design-a-beautiful-website</title>
+    <link rel="stylesheet" href="./styles/common.css">
     <link rel="stylesheet" href="./styles/commonFooter.css">
     <link rel="stylesheet" href="./styles/how-to-design-a-beautiful-website.css">
     <style>
@@ -25,40 +26,15 @@
                 padding-right: 10%;
             }
        }
-       @media screen and (min-width: 1360px){
-            #imaginary-box{
-                width: 80%;
-                grid-gap: 0;
-                margin: auto;
-                display: grid;
-                grid-template-areas: "a a b"
-                                    "a a c";
-            }
-            #box-1{
-                grid-area: a;
-                margin: 0;
-                width: 100%;
-            }
-            .image-1{
-                grid-area: b;
-                width: 100%;
-                padding-left: 0;
-
-            }
-            #box-2{
-                width: 100%;
-                margin: 0;
-                grid-area: c;
-            }
-        }
+       
     </style>
 </head>
 <body>
     <div id="nav-bar">
         <ul>
             <div class="nav-left">
-                <li><a href="#">Products</a></li>
-                <li><a href="how-design-a-beautiful-website.html">Resources</a></li>
+                <li><a href="our.html">Our Story</a></li>
+                <li><a href="how-to-design-a-beautiful-website.html">Resources</a></li>
                 <li><a href="#">Inspiration</a></li>
                 <li><a href="pricing.html">Pricing</a></li>
             </div>
@@ -68,10 +44,10 @@
             <div class="nav-right">
                 <li><i class="fas fa-search fa-lg"></i></li>
                 <li>
-                    <a href="./login.html" class="login">Login</a>
+                    <a href="login.html" id="login">Login</a>
                 </li>
                 <li>
-                    <button class="sign-up">Sign Up Free</button>
+                    <a href="" class="sign-up" style="color: white;">Sign Up Free</a>
                 </li>
             </div>  
         </ul>
