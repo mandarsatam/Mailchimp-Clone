@@ -416,7 +416,6 @@ p{
 }
 
 #box-1{
-    height: 90vh;
     width: 80%;
     background-color: rgb(250, 244, 244);
     margin: 0px 10% 50px;
@@ -459,9 +458,9 @@ p{
     padding-left: 10%;
 }
 #box-2{
-    height: 50vh;
     width: 80%;
     margin: auto;
+    margin-left: 10%;
     text-align: center;
     border: 1px solid rgb(26, 25, 25);
     padding: 50px 50px;
@@ -535,7 +534,6 @@ p{
     
 }
 #box-4{
-    height: 44vh;
     width: 80%;
     margin: 0px 10% 50px;
     text-align: left;
@@ -570,6 +568,7 @@ p{
     font-size: 20px;
     font-weight: 600;
     font-family: 'Hind', sans-serif;
+    padding-bottom: 5%;
 }
 
 
