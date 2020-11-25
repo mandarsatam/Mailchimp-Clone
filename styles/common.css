@@ -2,7 +2,6 @@ body{
     height: 1000px;
     margin: 0;
 }
-
 #nav-bar{
     position: fixed;
     width: 100%;
@@ -12,13 +11,14 @@ body{
     left: 0;
     padding: 10px;
 }
-
+.nav-left a:hover{
+    font-weight: 700;
+}
 #nav-bar > ul{
     display: flex;
     width: 95%;
     justify-content: space-between;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 #nav-bar > ul > div{
@@ -50,7 +50,11 @@ body{
 .login{
     padding: 12px 28px;
     border-radius: 0;
-    border: 1px solid black;
+    border: none;
+    text-decoration: none;
+}
+.login:hover{
+    text-decoration: underline;
 }
 .sign-up{
     padding: 12px 28px;
@@ -68,6 +72,10 @@ body{
     position: relative;
     bottom: 10px;
 }
+
+
+/* Himanshu's Part from here */
+
 
 
 
