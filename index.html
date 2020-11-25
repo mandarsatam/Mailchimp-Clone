@@ -4,16 +4,62 @@
     <title>Mail Chimp</title>
     <link rel="stylesheet" href="./styles/common.css">
     <link rel="stylesheet" href="./styles/landing.css">
-    <link rel="stylesheet" href="./commonFooter.css">
+    <link rel="stylesheet" href="./styles/commonFooter.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+       @media screen and (max-width: 900px){
+           
+           #box-6{
+                padding-left: 10%;
+           }
+            #box-6 > div{
+            flex-direction: column;
+            padding-left: 10%;
+            }
+            .image-5, .image-6{
+                width: 70%;
+            }
+            .last-text{
+                width: 95vw;
+            }
+       }
+       @media screen and (min-width: 1360px){
+            #imaginary-box{
+                width: 80%;
+                grid-gap: 0;
+                margin: auto;
+                display: grid;
+                grid-template-areas: "a a b"
+                                    "a a c";
+            }
+            #box-1{
+                grid-area: a;
+                margin: 0;
+                width: 100%;
+            }
+            .image-1{
+                grid-area: b;
+                width: 100%;
+                padding-left: 0;
+
+            }
+            #box-2{
+                width: 100%;
+                margin: 0;
+                grid-area: c;
+            }
+        }
+        
+    </style>
 <link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="nav-bar">
         <ul>
             <div class="nav-left">
-                <li><a href="#">Products</a></li>
+                <li><a href="our.html">Products</a></li>
                 <li><a href="how-to-design-a-beautiful-website.html">Resources</a></li>
                 <li><a href="#">Inspiration</a></li>
                 <li><a href="pricing.html">Pricing</a></li>
@@ -299,7 +345,7 @@
 
 
     <!-- HImanshu's Code from here -->
-
+    <div id="imaginary-box">
     <button id="box-1">
         <a href="./how-design-a-beautiful-website.html" class="atag">
         <div>
@@ -319,7 +365,7 @@
             <div class="b_c">Students look toward a new career part through a intricate art of noodle making</div>
             <h class="b_d">Watch Now</h>
         </div>
-    </button>
+    </button></div>
     <button id="box-3">
         <div>
             <div class="c_a">WORKSHOP</div>
@@ -329,8 +375,7 @@
     </button>
     <img src="https://lh3.googleusercontent.com/w1hyGzSj173ZxNYxXNWid7ZC4jcdURnavnXKYeRjK4Xhu9t5pJcWyhd__72Ngidi4o0x2DY=s135" class="image-4"/>
     <button id="box-4">
-        <div>
-            
+        <div>           
             <div class="d_a">RESOURCES</div>
             <div class="d_b">Make the Most of Your Website Launch</div>
             <div class="d_c">Create a website that expresses who you are and amplifies your business. These 10 tips will help.</div>
@@ -400,16 +445,11 @@
                 <img src="https://eep.io/images/yzco4xsimv0y/64EpnI4RsQI66c2y2O60G2/4c34d7bc4dd7a4362c7e19a06c109e21/icon-android.svg?q=95" data-src="https://eep.io/images/yzco4xsimv0y/64EpnI4RsQI66c2y2O60G2/4c34d7bc4dd7a4362c7e19a06c109e21/icon-android.svg?q=95" data-behavior="lazyload" class="image-6" alt="Get it on Google Play">
             </div>
             <img src="https://eep.io/images/yzco4xsimv0y/5daYAeMRSgIUUiSquGwsgI/1904e3f818575ec9625fa15dab193243/icon-facebook.svg?q=95" data-src="https://eep.io/images/yzco4xsimv0y/5daYAeMRSgIUUiSquGwsgI/1904e3f818575ec9625fa15dab193243/icon-facebook.svg?q=95" data-behavior="lazyload" class="image-7" alt="Facebook">
-            <img src="https://eep.io/images/yzco4xsimv0y/3VjJhbqftKuok6gqYuUQKy/328d56c5d13ad50b9679b11e716bb218/icon-twitter.svg?q=95" data-src="https://eep.io/images/yzco4xsimv0y/3VjJhbqftKuok6gqYuUQKy/328d56c5d13ad50b9679b11e716bb218/icon-twitter.svg?q=95" data-behavior="lazyload" class="image-7" alt="Twitter">
-            <img src="https://eep.io/images/yzco4xsimv0y/RlNw7Xkw8uKYAUoYU4aQw/ff3eada8736da9e63fbd9f929c6a677c/icon-instagram.svg?q=95" data-src="https://eep.io/images/yzco4xsimv0y/RlNw7Xkw8uKYAUoYU4aQw/ff3eada8736da9e63fbd9f929c6a677c/icon-instagram.svg?q=95" data-behavior="lazyload" class="image-7" alt="Instagram">
-            <img src="https://eep.io/images/yzco4xsimv0y/n5saFR4miW4U4ygUIQo0A/8f9c60cb133b80fda2fe9bdb825b4a5f/icon-linkedin.svg?q=95" data-src="https://eep.io/images/yzco4xsimv0y/n5saFR4miW4U4ygUIQo0A/8f9c60cb133b80fda2fe9bdb825b4a5f/icon-linkedin.svg?q=95" data-behavior="lazyload" class="image-7" alt="LinkedIn">
-            <img src="https://eep.io/images/yzco4xsimv0y/2z1ra9BrgQewIqMQckMasg/58e3e8ec04acd60f0642f89dfbd71218/icon-youtube.svg?q=95" data-src="https://eep.io/images/yzco4xsimv0y/2z1ra9BrgQewIqMQckMasg/58e3e8ec04acd60f0642f89dfbd71218/icon-youtube.svg?q=95" data-behavior="lazyload" class="image-7" alt="YouTube">        
-            <img src="https://eep.io/images/yzco4xsimv0y/7nawBEArBKpxRukK66OZtN/af9879112b20982e13748d47b24c8681/pinterest-logo.svg?q=95" data-src="https://eep.io/images/yzco4xsimv0y/7nawBEArBKpxRukK66OZtN/af9879112b20982e13748d47b24c8681/pinterest-logo.svg?q=95" data-behavior="lazyload" class="image-7" alt="">
-            <img src="https://eep.io/images/yzco4xsimv0y/3VjJhbqftKuok6gqYuUQKy/328d56c5d13ad50b9679b11e716bb218/icon-twitter.svg?q=95" data-src="https://eep.io/images/yzco4xsimv0y/3VjJhbqftKuok6gqYuUQKy/328d56c5d13ad50b9679b11e716bb218/icon-twitter.svg?q=95" data-behavior="lazyload"  class="image-7" alt="Twitter">
-            <img src="https://eep.io/images/yzco4xsimv0y/RlNw7Xkw8uKYAUoYU4aQw/ff3eada8736da9e63fbd9f929c6a677c/icon-instagram.svg?q=95" data-src="https://eep.io/images/yzco4xsimv0y/RlNw7Xkw8uKYAUoYU4aQw/ff3eada8736da9e63fbd9f929c6a677c/icon-instagram.svg?q=95" data-behavior="lazyload"  class="image-7" alt="Instagram">
-            <img src="https://eep.io/images/yzco4xsimv0y/n5saFR4miW4U4ygUIQo0A/8f9c60cb133b80fda2fe9bdb825b4a5f/icon-linkedin.svg?q=95" data-src="https://eep.io/images/yzco4xsimv0y/n5saFR4miW4U4ygUIQo0A/8f9c60cb133b80fda2fe9bdb825b4a5f/icon-linkedin.svg?q=95" data-behavior="lazyload"  class="image-7" alt="LinkedIn">
-            <img src="https://eep.io/images/yzco4xsimv0y/2z1ra9BrgQewIqMQckMasg/58e3e8ec04acd60f0642f89dfbd71218/icon-youtube.svg?q=95" data-src="https://eep.io/images/yzco4xsimv0y/2z1ra9BrgQewIqMQckMasg/58e3e8ec04acd60f0642f89dfbd71218/icon-youtube.svg?q=95" data-behavior="lazyload" class="image-7" alt="YouTube">        
-            <img src="https://eep.io/images/yzco4xsimv0y/7nawBEArBKpxRukK66OZtN/af9879112b20982e13748d47b24c8681/pinterest-logo.svg?q=95" data-src="https://eep.io/images/yzco4xsimv0y/7nawBEArBKpxRukK66OZtN/af9879112b20982e13748d47b24c8681/pinterest-logo.svg?q=95" data-behavior="lazyload"  class="image-7" alt="">
+            <img src="https://eep.io/images/yzco4xsimv0y/3VjJhbqftKuok6gqYuUQKy/328d56c5d13ad50b9679b11e716bb218/icon-twitter.svg?q=95" data-src="https://eep.io/images/yzco4xsimv0y/3VjJhbqftKuok6gqYuUQKy/328d56c5d13ad50b9679b11e716bb218/icon-twitter.svg?q=95" data-behavior="lazyload" style="" class="image-7" alt="Twitter">
+            <img src="https://eep.io/images/yzco4xsimv0y/RlNw7Xkw8uKYAUoYU4aQw/ff3eada8736da9e63fbd9f929c6a677c/icon-instagram.svg?q=95" data-src="https://eep.io/images/yzco4xsimv0y/RlNw7Xkw8uKYAUoYU4aQw/ff3eada8736da9e63fbd9f929c6a677c/icon-instagram.svg?q=95" data-behavior="lazyload" style="" class="image-7" alt="Instagram">
+            <img src="https://eep.io/images/yzco4xsimv0y/n5saFR4miW4U4ygUIQo0A/8f9c60cb133b80fda2fe9bdb825b4a5f/icon-linkedin.svg?q=95" data-src="https://eep.io/images/yzco4xsimv0y/n5saFR4miW4U4ygUIQo0A/8f9c60cb133b80fda2fe9bdb825b4a5f/icon-linkedin.svg?q=95" data-behavior="lazyload" style="" class="image-7" alt="LinkedIn">
+            <img src="https://eep.io/images/yzco4xsimv0y/2z1ra9BrgQewIqMQckMasg/58e3e8ec04acd60f0642f89dfbd71218/icon-youtube.svg?q=95" data-src="https://eep.io/images/yzco4xsimv0y/2z1ra9BrgQewIqMQckMasg/58e3e8ec04acd60f0642f89dfbd71218/icon-youtube.svg?q=95" data-behavior="lazyload" style="" class="image-7" alt="YouTube">        
+            <img src="https://eep.io/images/yzco4xsimv0y/7nawBEArBKpxRukK66OZtN/af9879112b20982e13748d47b24c8681/pinterest-logo.svg?q=95" data-src="https://eep.io/images/yzco4xsimv0y/7nawBEArBKpxRukK66OZtN/af9879112b20982e13748d47b24c8681/pinterest-logo.svg?q=95" data-behavior="lazyload" style="" class="image-7" alt="">
             <div class="last-text">©2001-2020 All Rights Reserved. Mailchimp® is a registered trademark of The Rocket Science Group. Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S. and other countries. Mac App Store is a service mark of Apple Inc. Google Play and the Google Play logo are trademarks of Google Inc. <a href="" style="color: #241c15; font-weight: 700;">Privacy & Terms</a></div>
         </div>
     </div>

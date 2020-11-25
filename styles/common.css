@@ -10,9 +10,16 @@ body{
     top: 0;
     left: 0;
     padding: 10px;
+    
+}
+
+.nav-left .closebtn{
+    position: absolute;
+    font-size: 40px;
+    margin-left: 60px;
 }
 .nav-left a:hover{
-    font-weight: 700;
+    font-weight: 600;
 }
 #nav-bar > ul{
     display: flex;
@@ -48,7 +55,7 @@ body{
 }
 
 .login{
-    padding: 12px 28px;
+    padding: 14px 28px 12px;
     border-radius: 0;
     border: none;
     text-decoration: none;
