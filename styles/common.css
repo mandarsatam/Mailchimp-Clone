@@ -50,7 +50,11 @@ body{
 .login{
     padding: 12px 28px;
     border-radius: 0;
-    border: 1px solid black;
+    border: none;
+    text-decoration: none;
+}
+.login:hover{
+    text-decoration: underline;
 }
 .sign-up{
     padding: 12px 28px;
