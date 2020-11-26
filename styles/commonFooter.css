@@ -105,3 +105,18 @@
     font-size: .625rem;
     color: #241c15;
 }
+
+
+@media screen and (max-width: 900px ){
+   
+     #box-6 > div{
+     flex-direction: column;
+     }
+     .image-5, .image-6{
+         width: 70%;
+     }
+     .last-text{
+         width: 95vw;
+     }
+}
+
