@@ -490,13 +490,14 @@ p{
     height: 90vh;
     width: 80%;
     background-color: rgb(250, 244, 244);
-    margin: 0px 10% 50px;
+    margin: 0px 10% 5%;
     text-align: center;
     padding: 100px;
     border: none;
     display: flex;
     justify-content: center;
     color: rgb(27, 27, 27);
+    padding-bottom: 10%;
 }
 .atag{
     text-decoration: none;
@@ -532,7 +533,8 @@ p{
 #box-2{
     height: 50vh;
     width: 80%;
-    margin: auto;
+    margin-left: 10%;
+    margin-top: 5%;
     text-align: center;
     border: 1px solid rgb(26, 25, 25);
     padding: 50px 50px;
@@ -565,14 +567,13 @@ p{
     font-family: 'Hind', sans-serif;
 }
 #box-3{
-    height: 70vh;
     width: 80%;
     background-color: rgb(23,41,77);
     border: none;
     display: flex;
     justify-content: center;
     text-align: left;
-    margin: 5% auto;
+    margin: 5% 10%;
     background-image: url("https://eep.io/images/yzco4xsimv0y/3ih3qEmyPwUrYajkZ49pVs/f019adf218f004142aa09342a60d087f/Securing_content_usage_rights.jpg?w=780");
 }
 .image-3{
@@ -606,7 +607,6 @@ p{
     
 }
 #box-4{
-    height: 44vh;
     width: 80%;
     margin: 0px 10% 50px;
     text-align: left;
@@ -641,6 +641,7 @@ p{
     font-size: 20px;
     font-weight: 600;
     font-family: 'Hind', sans-serif;
+    padding-bottom: 5%;
 }
 
 
