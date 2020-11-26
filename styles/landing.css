@@ -390,27 +390,7 @@ a{
          text-align: center;
     
     }
-    /* .street{
-        margin-top: 5%;
-        width: 10%;
-        margin-left: 10%;
-        float: left;
-    
-    
-    }
-    .street > .flex_all{
-        min-width: 20%;
-    
-    }
-    
-    .flex_img  {
-        clear: left;
-        width: 100%;
-    }
-     .flex_img > img{
-        float: left;
-     } */
-    
+
     
      .mail{
         margin-top: 10%;
@@ -510,7 +490,8 @@ a{
         justify-content: center;
     }
     .see_below > img {
-        width: 45%;
+        width: 25%;
+        height: 10%;
         margin-left: 10%;
     }
     .see_word{
@@ -618,8 +599,17 @@ a{
     }
 
     @media only screen and (min-width: 600px) {
-
-   
+    .see_below > img {
+        width: 40%;
+        height: 20%;
+        margin-left: 10%;
+    }
+    .see_word{
+    
+        margin-left: 5%;
+        font-family: Means Web,Georgia,Times,Times New Roman,serif;
+        margin-top: 1px;  
+    }
     .upto{
         margin-top: 10%;
         font-family: Georgia, 'Times New Roman', Times, serif;
