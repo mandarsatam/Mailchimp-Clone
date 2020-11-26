@@ -31,6 +31,12 @@
     padding-top: 2%;
     font-size: 20px;
 }
+.input{
+    outline: none;
+}
+.input:focus{
+    outline: 1px solid rgb(15, 134, 182);
+}
 .form{
     padding: 2% 5%;
     display: flex;
