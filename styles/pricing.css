@@ -41,7 +41,7 @@ a{
 }
 ul{
     list-style: none;
-    padding: 0;
+    /* padding: 0; */
 }
 #link2{
     color: #007CA8;
@@ -253,6 +253,25 @@ ul{
     border-right: 1px solid black;
 }
 
+/****************** Section - 7 ****************/
+.section-7-cont{
+    width: 75%;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    margin: auto;
+}
+
+.section-7-inner{
+    display: flex;
+    flex-direction: column; 
+    /* border: 0.2px solid black; */
+}
+
+.section-7-inner div{
+    flex: 1;
+    border: 0.1px solid black;
+    padding: 10px;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -285,6 +304,9 @@ ul{
         border-right: none;
         border-bottom: 1px solid black;
     }
+    #box-6{
+        padding-left: 10%;
+   }
 }
 @media only screen and (min-width: 600px) {
     .section-4{
@@ -332,7 +354,7 @@ ul{
 }
 
 
-@media screen and (max-width: 1200px){
+/* @media screen and (max-width: 1200px){
     .nav-left > a {font-size: 50px;}
     #nav-bar{
         height: 75px;
@@ -342,7 +364,7 @@ ul{
         padding-left: 30px;  
     }
     
-}
+} */
 /****************** Section - 7 ****************/
 .section-7-cont{
     width: 75%;
@@ -365,3 +387,61 @@ ul{
 
 
 
+@media screen and (max-width: 900px){
+    /* body{
+        margin-left: 10%;
+    } */
+    #box-6{
+         padding-left: 10%;
+    }
+    #box-6 > div{
+    flex-direction: column;
+    margin-left: 10%;
+    }
+    .image-5, .image-6{
+        width: 70%;
+    }
+    .last-text{
+        width: 95vw;
+    }
+}
+@media screen and (min-width: 1300px){
+     #imaginary-box{
+         width: 80%;
+
+         grid-gap: 0;
+         margin: 5% auto 0%;
+         display: grid;
+         grid-template-areas: "a a b"
+                             "a a c";
+     }
+     #box-1{
+         grid-area: a;
+         margin: 0;
+         width: 100%;
+     }
+     .image-1{
+         grid-area: b;
+         width: 100%;
+         padding-left: 0;
+
+     }
+     #box-2{
+         width: 100%;
+         margin: 0;
+         grid-area: c;
+     }
+ }
+ /* @media screen and (max-width: 1200px){
+     .nav-left > a {font-size: 50px;}
+     #nav-bar{
+         height: 75px;
+     }
+     .nav-left{
+         padding-top: 10px; 
+         padding-left: 30px;  
+     }
+     .nav-mid{
+         word-wrap: none;
+     }
+ } */
