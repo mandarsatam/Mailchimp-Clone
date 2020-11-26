@@ -10,23 +10,20 @@ body{
     top: 0;
     left: 0;
     padding: 10px;
-    
 }
 
 .nav-left .closebtn{
     position: absolute;
     font-size: 40px;
     margin-left: 60px;
-
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+    text-decoration: none;
 }
-.nav-left a:hover{
-    color: skyblue;
-}
+
 #nav-bar > ul{
     display: flex;
     width: 95%;
@@ -43,11 +40,13 @@ body{
     margin: 0 20px;
 }
 
-/* #nav-bar  a{
-    text-decoration: none;
+#nav-bar  a{
     color: black;
-} */
-
+    text-decoration: none;
+}
+.nav-left a:hover{
+    color: skyblue;
+}
 .nav-left{
     font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;
     color: #241c15;
@@ -78,7 +77,6 @@ body{
 
 .nav-mid{
     margin: 10px auto;
-    
 }
 
 #login{
@@ -97,7 +95,7 @@ body{
 }
 .sign-up{
     /* padding: 8px 28px; */
-    background: #007c89;    
+    background-color: #007c89;    
     border-radius: 0;
     border: 0;
     font-size: .8125rem;
