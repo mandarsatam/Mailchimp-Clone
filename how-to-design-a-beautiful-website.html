@@ -26,18 +26,33 @@
                 padding-right: 10%;
             }
        }
+       @media screen and (max-width: 1200px){
+            .nav-left > a {font-size: 50px;}
+            #nav-bar{
+                height: 75px;
+            }
+            .nav-left{
+                padding-top: 10px; 
+                padding-left: 30px;  
+            }
+            .nav-mid{
+                word-wrap: none;
+            }
+        }
        
     </style>
 </head>
 <body>
     <div id="nav-bar">
         <ul>
-            <div class="nav-left">
+            <div id="nav" class="nav-left">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <li><a href="our.html">Our Story</a></li>
                 <li><a href="how-to-design-a-beautiful-website.html">Resources</a></li>
                 <li><a href="#">Inspiration</a></li>
                 <li><a href="pricing.html">Pricing</a></li>
             </div>
+            <span style="font-size:30px; padding-top: 15px; cursor:pointer" onclick="openNav()">&#9776; </span>
             <div class="nav-mid">
                 <li><i><a href="index.html"><i class="fab fa-mailchimp fa-3x"></i><b class="mailchimp-logo">mailchimp</b></a></i></li> 
             </div>
@@ -52,7 +67,6 @@
             </div>  
         </ul>
     </div>
-
 
 
     <div id="header">

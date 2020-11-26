@@ -17,6 +17,12 @@ body{
     position: absolute;
     font-size: 40px;
     margin-left: 60px;
+
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
 }
 .nav-left a:hover{
     color: skyblue;
@@ -37,17 +43,33 @@ body{
     margin: 0 20px;
 }
 
-#nav-bar  a{
+/* #nav-bar  a{
     text-decoration: none;
     color: black;
-}
+} */
 
 .nav-left{
     font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;
     color: #241c15;
     font-weight: 500;
-    margin: 25px 0;
     font-size: 0.9rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+    font-size: 30px;
+    height: 100%;
+
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:white;
+    overflow-x: hidden;
+    transition: 0.4s;
+    padding-top: 30px;
+
 }
 
 .nav-right{
@@ -55,7 +77,8 @@ body{
 }
 
 .nav-mid{
-    margin: 10px 0;
+    margin: 10px auto;
+    
 }
 
 #login{
