@@ -2,22 +2,23 @@
 <html lang="en">
 <head>
     <title>Login</title>
-    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="./styles/login.css">
 </head>
 <body>
     <div id="main-box">
         <div id="first-div">
-            <img src="https://login.mailchimp.com/release/1.1.12a050baee0510c3fba88204b19ebaa783bf2e2e2/images/brand_assets/logos/mc-freddie-dark.svg" class="image"/>
+            <img src="https://login.mailchimp.com/release/1.1.12a050baee0510c3fba88204b19ebaa783bf2e2e2/images/brand_assets/logos/mc-freddie-dark.svg" id="image"/>
             <h class="heading">Login</h>
-            <div class="div">Need a Milichamp account?  <a href="#">Create an account</a></div>
             
             <form class="form">
-                <label for="user">Username</label>
-                <input type="text" id="user"/>
-                <label for="pass">Password</label>
-                <input type="text" id="pass"/>
+                <div class="div">Need a Milichamp account?  <a href="#">Create an account</a></div>
+
+                <label style="font-size: 20px; font-weight: 600;" for="user">Username</label>
+                <input class="input" type="text" id="user"/>
+                <label style="font-size: 20px; font-weight: 600;" for="pass">Password</label>
+                <input class="input" type="text" id="pass"/>
                 <input type="submit" value="Log in" class="submit">
-                <div><input type="checkbox">Keep me logged in</div>
+                <div style="font-size: 20px; margin: auto;  font-weight: 600;"><input type="checkbox">Keep me logged in</div>
                 <p>
                     <a href="#">Forgot Username?</a> . <a href="#">Forgot Username?</a>
                 </p>
@@ -26,8 +27,7 @@
                 <a  href="#">Cookie Preferences</a>, <a  href="#">Privacy</a> and <a  href="#">Terms</a></p>
         </div>
         <div id="second-div">
-        <div class="background" style="background-image: url(https://cdn-images.mailchimp.com/billboards/phpxYy2M6.jpeg)"></div>
-
+        <img src="./static/login image.png" class="logo-image"/>
         </div>
         
     </div>
