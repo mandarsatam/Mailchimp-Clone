@@ -796,6 +796,33 @@ a{
 
 /* HImanshu's Code from here */
 
+@media screen and (min-width: 1370px){
+    #imaginary-box{
+        width: 80%;
+
+        grid-gap: 0;
+        margin: 5% auto 0%;
+        display: grid;
+        grid-template-areas: "a a b"
+                            "a a c";
+    }
+    #box-1{
+        grid-area: a;
+        margin: 0;
+        width: 100%;
+    }
+    .image-1{
+        grid-area: b;
+        width: 100%;
+        padding-left: 0;
+
+    }
+    #box-2{
+        width: 100%;
+        margin: 0;
+        grid-area: c;
+    }
+}
 
 body{
     display: grid;

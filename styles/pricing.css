@@ -353,6 +353,40 @@ ul{
     }
 }
 
+
+@media screen and (max-width: 1200px){
+    .nav-left > a {font-size: 50px;}
+    #nav-bar{
+        height: 75px;
+    }
+    .nav-left{
+        padding-top: 10px; 
+        padding-left: 30px;  
+    }
+    
+}
+/****************** Section - 7 ****************/
+.section-7-cont{
+    width: 75%;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    margin: auto;
+}
+
+.section-7-inner{
+    display: flex;
+    flex-direction: column; 
+    /* border: 0.2px solid black; */
+}
+
+.section-7-inner div{
+    flex: 1;
+    border: 0.1px solid black;
+    padding: 10px;
+}
+
+
+
 @media screen and (max-width: 900px){
     body{
         margin-left: 10%;

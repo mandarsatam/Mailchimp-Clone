@@ -5,7 +5,7 @@ body{
     width: 100%;
     margin: auto;
     justify-content: center;
-    word-wrap: break-word;
+    /*                word-wrap: none; */: break-word;
 }
 #header{
     height: 1050px;
