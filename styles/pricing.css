@@ -15,8 +15,14 @@ h3{
     font-weight: 100;
 }
 h4{
-    font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;
-    font-size: 1 rem;
+    font-family:'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+}
+h5{
+    font-size: 1.5rem;
+    font-family: Means Web,Georgia,Times,Times New Roman,serif;
     font-weight: 100;
 }
 h6{
@@ -99,6 +105,7 @@ ul{
 
 .fa-check{
     color: #006E7A;
+    margin-right: 5px;
 }
 
 .sec-2-top{
