@@ -1,5 +1,5 @@
 function openNav() {
-  document.getElementById("nav").style.width = "550px";
+  document.getElementById("nav").style.width = "40%";
 }
 
 function closeNav() {
