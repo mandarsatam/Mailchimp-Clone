@@ -1,4 +1,4 @@
-# Mailchimp CLone
+# Mailchimp Clone
 MASAI TITANS Unit 1 Project
 ## Clone of Mailchimp
 > Task was to make a pixel perfect clone of website Mailchimp
